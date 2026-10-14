@@ -1,4 +1,5 @@
-<img width="974" height="134" alt="image" src="https://github.com/user-attachments/assets/0a53a0bf-93ba-4ff5-a853-cf0914d6eb95" />
+<img width="3030" height="617" alt="Ilum_Horizontal_monocroma╠ütico branco com assinatura especial_sem fundo" src="https://github.com/user-attachments/assets/6b554e40-defc-485f-8aa4-fe50e052d3ed" />
+
 
 # Criatura Lendária - TIAMAT 2026
 
@@ -83,5 +84,3 @@ Agradeço ao professor docente responsável por ministrar a disciplina de Aprend
 | <img src="https://github.com/AnaLuizaSilv.png" width=115><br><sub>[Ana Luiza de Lima Silva](https://github.com/AnaLuizaSilv)</sub> |
 | :--: |
 Ana Luiza de Lima Silva, estudante do primeiro semestre do bacharelado em Ciência e Tecnologia da Ilum escola de ciência
-
-<img width="966" height="95" alt="image" src="https://github.com/user-attachments/assets/f9825ded-4549-4691-a6e0-e261bfeb7aa1" />
