@@ -30,12 +30,30 @@
 <!--te-->
 
 ## Objetivo da atividade
-<p align="justify"> 
+<p align="justify"> Este repositório corresponde ao projeto final da disciplina de Aprendizado de Máquina, ministrada pelo professor Daniel R. Cassar durante o segundo semestre de 2026. Seu principal objetivo é consolidar os ensinamentos e aprendizados nos diferentes modelos de Aprendizado de Máquina apresentados durante a disciplina, bem como estratégias para sua validação, implementação e otimização.
+
 
 ## Conjunto de dados
-<p align="justify"> 
+<p align="justify"> O conjunto de dados utilizado para o desenvolvimento da atividade foi o "Breast Cancer Wisconsin (Diagnostic)", disponibilizado pelo Machine Learning Repository da UC Irvine. Nele, são apresentados 569 exemplos, dos quais 357 são tumores de mama benignos e 212 malignos, além de 30 atributos numéricos (ou quantitativos) contínuos, sem valores duplicados ou faltantes. As informações descritas correspondem a medições de 10 características dos núcleos celulares entre os participantes do estudo, sendo elas: raio, textura, perímetro, área, suavidade, compacidade, concavidade, pontos côncavos, simetria e dimensão fractal.
 
+
+## Motivação do projeto
+<p align="justify"> O câncer de mama é o câncer de maior quantidade de diagnósticos entre mulheres, tornando relevante o desenvolvimento de ferramentas eficazes para a identificação e classificação precoce dos tumores a fim de permitira condução correta de tratamentos. Nesse sentido, o presente trabalho se propõe a, com base em um repositório público, comparar a atuação de diferentes modelos de aprendizado de máquina e sua efetividade em identificar características comuns e capazes de distinguir tumores de natureza benigna e maligna.
+
+  
 ## Metodologias e análises empregadas
+- Realização de uma análise exploratória dos dados;
+- Uso de estratégia de Holdout, separando os dados do conjunto em conjuntos de treino (90%) e teste(10%);
+- Construção de um modelo Baseline a fim de estabelecer um meio de comparação com os demais modelos;
+- Construção de 6 modelos de classificação: K-NN, Árvore de decisão, Floresta aleatória, Regressão logística, CatBoost e Naive Bayes;
+- Uso de diferentes métricas para avaliar o desempenho do modelo, priorizando aquelas que dão maior peso à classificação de falsos positivos: acurácia, precisão, recall, F1, F2, ROC-AUC e PR-AUC;
+- Uso da estratégia de validação cruzada estratificada aplicada aos dados de treino dos modelos;
+- Comparação entre o efeito de diferentes normalizações, incorporadas em pipelines para evitar o vazamento de dados;
+- Otimização de hiperparâmetros com a ferramenta OPtuna, utilizando 130 tentativas para cada modelo;
+- Aplicação de ferramentas de redução de dimensionalidade dos dados por meio de PCA (Análise dos Componentes principais);
+- Comparação entre os modelos construídos;
+- Uso de diferentes estratégias de explicabilidade dos modelos: PDP, Importância por permutação, LIME, SHAP e explicações contrafactuais;
+- Análises adicionais da robustez e estabilidade dos modelos construídos.
 
 ## Instruções para uso
 <p align="justify"> 
